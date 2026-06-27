@@ -1,2 +1,5 @@
-# kalov-web
+# Kalov
+
 Webpage for Kalov
+
+******* App coming soon *******
