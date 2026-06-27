@@ -17,6 +17,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
         {% include head-custom.html %}
+
+        <style>
+            /* Replace the theme's Octocat logo with a "Kalov" text wordmark.
+               Must match the theme's "#banner #logo" specificity to win. */
+            #banner #logo {
+                background: none;
+                width: auto;
+                height: 36px;
+                line-height: 36px;
+                font-size: 1.4rem;
+                font-weight: 700;
+                color: #333;
+                letter-spacing: 0.5px;
+                white-space: nowrap;
+            }
+        </style>
     </head>
 
     <body>
@@ -27,7 +43,7 @@
         </header>
 
         <div id="banner">
-            <span id="logo"></span>
+            <span id="logo">Kalov</span>
 
             <a href="https://kalov.one" class="button fork"><strong>Download App (Coming Soon)</strong></a>
 
